@@ -23,16 +23,8 @@ router.get('/', (req,res)=>{
 
 
 //new comment route
-router.get('/:id/new', async(req,res,next)=>{
-    try{
-        const post = await db.Post.findById(req.params.id)
-        const context = {post}
-        res.render('comments/new.ejs')
-    }catch(error){
-        req.error = error
-        return next()
-    }
-    
+router.get('/:id/new', (req,res)=>{
+    res.render('comments/new.ejs')
 })
 
 router.post('/',async (req,res,next)=>{

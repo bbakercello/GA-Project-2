@@ -14,7 +14,7 @@ const PORT = 4000
 app.set('view engine','ejs')
 
 // Middleware
-app.use(express.static('public'))
+app.use(express.static(__dirname + '/public'));
 app.use(methodOverride('_method'));
 
 

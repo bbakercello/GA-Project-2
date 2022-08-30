@@ -12,15 +12,18 @@
 <div>
     <div>
         
-        <label for="comment-body">User</label>
+
+        <label for="body">Body</label>
         <input
          type="text"
           placeholder="Comment here..."
-          name="comment-body"
-          id="comment-body"
+          name="body"
+          id="body"
           />
+        <input type="hidden" name="post" value="<%= post.id %>" />
+        <input type="submit" value="Submit" />
+
     </div>
-    <button class="button is-info">Post Comment</button>
 </form>
 </div>
 </body>

@@ -100,7 +100,7 @@ const entries = [
         location: 'Big Island, Hawaii'
     },
     {   
-        user: '2MuchAdvanture',
+        user: '2MuchAdventure',
         body: 'Half a day in the sun. No regrets.',
         image: 'https://i.imgur.com/nEXzIvM.jpg',
         location: 'Arches National Park, UT'

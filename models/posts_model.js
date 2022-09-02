@@ -131,8 +131,6 @@ const seedData =
     },
 ]
 
-
-
 const userData = [
     {
     email: 'dRobles@gmail.com',

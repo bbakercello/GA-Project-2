@@ -1,24 +1,18 @@
 
 
 body{
-    /* background-color: rgba(140, 150, 130, .5); */
-    /* background-color: rgba(192, 200, 201, .7); */
-    /* background-color: rgb(38, 38, 129); */
     background-color: rgba(140, 150, 130, .5);
     align-items: center;
 
 }
 
 .main-color{
-    /* background-color: whitesmoke */
     background-color: rgba(140, 150, 130, .5)
 }
 
 h2{
     text-align: center;
     font-family: 'Caveat', cursive;
-    /* font-family: 'Cookie', cursive; */
-    /* margin-top: -5px; */
     font-size: 50px;
     max-height: 20px;
 }
@@ -43,27 +37,15 @@ a {
     
 }
 .imgPost {
-    /* border-radius: 10px; */
-    /* box-shadow: 1px 2px; */
     text-align: center;
     width: 700px;
-    /* min-height: 540px;
-    min-width: 540px;
-    max-width: 540px;
-    max-height: 540px; */
 }
 
 .avatar-handle {
     display: flex;
-    /* border: 2px solid purple; */
     gap: 15px;
     align-items: center;
 }
-
-/* .user-info {
-    border: 2px solid gray;
-    border-radius: 10px;
-} */
 
 .avatar{
     width: 50px;
@@ -78,29 +60,15 @@ h3 {
     font-size: 18px;
 }
 
-
-/* .login {
-    display: flex;
-    font-size: 12px;
-    font-style: italic;
-    align-items: center;
-    justify-content: right;
-    gap: 15px;
-} */
-
 button {
     box-shadow: 1px 2px;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
 }
 .user {
-    /* background-color: black; */
     color: whitesmoke;
     height: 30px;
     width: 500px;
-    /* margin-left: 375px;
-    margin-bottom: 0px; */
-    
 }
 .commentDelete {
     display:contents;
@@ -121,12 +89,10 @@ input {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    /* border: 1px solid lightgray; */
     align-items: center;
     gap: 10px;
     border-radius: 5px;
     width: 700px;
-    /* background-color: white; */
 }
 .content {
     border: 1px solid lightgray;
@@ -138,7 +104,6 @@ input {
 .broader-content{
     display: flex;
     justify-content: center;
-    /* border: 1px solid red; */
 }
 
 .create-post {
@@ -173,7 +138,6 @@ h4 {
 }
 
 .input-style{
-    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
 }

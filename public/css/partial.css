@@ -1,5 +1,4 @@
 .login {
-    /* border: 1px solid red; */
     display: flex;
     font-size: 12px;
     font-style: italic;
@@ -30,7 +29,6 @@
 /* nav.ejs partial styling */
 .nav-container{
     display: flex;
-    /* border: 1px solid red; */
     justify-content: center;
     height: 150px;
 }
@@ -40,5 +38,4 @@
     flex-direction: column;
     gap: 20px;
     width: 2000px;
-    /* border: 2px solid black; */
 }

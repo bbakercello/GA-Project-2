@@ -9,18 +9,16 @@
     <link href="/css/main.css" rel="stylesheet" type="text/css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto:wght@300&display=swap');
-        </style>
+    </style>
     <title>LandPost</title>
 </head>
 <body class="main-color">
-
 <%- include('partials/nav.ejs') %>
 <div class="postbox-container">
 <div class="new-post-box">
     <h3>Edit Post</h3>
 <div>
 <form action="/blog/<%=editedPost.id%>?_method=PUT" method="POST">
-    
     
     <div>
         <label for="user"></label>
@@ -32,9 +30,7 @@
         value = "<%=editedPost.user%>"
         />
     </div>
-            
-    
-            
+                 
     <div>
         
         <label for="image">Image URL:</label>

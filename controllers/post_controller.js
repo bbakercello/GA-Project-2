@@ -12,16 +12,6 @@ router.use(express.json())
 router.use(express.urlencoded({extended: false}))
 
 
-// router.get('/',async(req,res,next)=> {
-//     try{
-//     }
-//     }catch(error){
-//         req.error = error
-//         return next()
-//     }
-// })
-
-
 //index route
 router.get("/", async (req,res,next)=> {
     try{
@@ -29,7 +19,6 @@ router.get("/", async (req,res,next)=> {
         const context = {posts}  
         res.render('index.ejs', context)
     }catch (error){
-       
         req.error = error
         return next()
     }
@@ -60,7 +49,6 @@ router.get('/:id/remove', async (req, res,) => {
 router.post('/', async (req, res, next) => {
     try{
         const createdPost = await db.Post.create(req.body)
-        console.log(createdPost)
         res.redirect('/blog')
         
     } catch (error) {
@@ -121,7 +109,6 @@ router.delete('/:id', async (req, res, next) => {
 router.put('/:id', async (req, res, next) => {
     try{
         const submittedPost = req.body
-        console.log(submittedPost)
         await db.Post.findByIdAndUpdate(req.params.id, submittedPost, {new: true})
         res.redirect(`/blog/${req.params.id}`)
     } catch (error) {

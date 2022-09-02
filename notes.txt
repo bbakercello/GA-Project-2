@@ -6,18 +6,3 @@ USER STORY
 4.) On Show Page, user can view the post text, photo and comments
 5.) User can edit and delete comments from show page
 6.) Navigation bar will bring back to index page and add post 
-
-
-
-
-
-
-// const seedData2 = [
-//     {   body: 'Sweet picture',
-//         post: '630ce9d9a09e9ac5f4b15b1f'
-//     },
-// ]
-
-
-// db.Comment.insertMany(seedData2)
-// console.log(seedData2)

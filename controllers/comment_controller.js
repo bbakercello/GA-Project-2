@@ -5,8 +5,7 @@ const router = express.Router()
 const db = require('../models')
 const Comment = require('../models/Comment.js')
 const Post = require('../models/Post.js')
-const User = require('../models/User.js'
-)
+const User = require('../models/User.js')
 
 
 
@@ -33,7 +32,6 @@ router.get('/:id/new', async(req,res,next)=>{
             comments: comments,
         })
     }catch (error){
-
         req.error = error
         return next()
     }
@@ -44,8 +42,6 @@ router.delete('/:id', async (req, res, next) => {
     try{
       const comment =  await db.Comment.findByIdAndDelete(req.params.id) 
         res.redirect('/blog')
-        console.log(comment)
-        
     } catch (error) {
         req.error = error
         return next()
@@ -56,7 +52,6 @@ router.post('/',async (req,res,next)=>{
     try{
         const comment = await db.Comment.create(req.body)
         user: req.session.currentUser.id
-        console.log(comment)
         res.redirect(`/blog`)
     }catch(error){
         req.err = error

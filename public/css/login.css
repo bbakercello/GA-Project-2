@@ -6,7 +6,6 @@ body{
 
 /* styling for login header */
 .login {
-    /* border: 1px solid red; */
     display: flex;
     font-size: 12px;
     font-style: italic;
@@ -50,7 +49,6 @@ body{
 /* nav.ejs partial styling */
 .nav-container{
     display: flex;
-    /* border: 1px solid red; */
     justify-content: center;
     height: 150px;
 }
@@ -60,43 +58,29 @@ body{
     flex-direction: column;
     gap: 20px;
     width: 2000px;
-    /* border: 2px solid black; */
 }
 
 .login-box {
-    /* position: absolute; */
-    /* top: 200px; */
-    /* left: 370px; */
     background-color:whitesmoke;
     box-shadow: 1px 5px black;
     border-radius: 5px;
     width: 400px;
     height: 500px;
-    /* margin-left: 300px; */
 }
 
 .login-container{
     margin-top: 60px;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     
 }
 
 h2{
-    /* font-family: 'Caveat', cursive; */
-    
-    /* margin-top: -5px; */
     margin-top: -1px;
     text-align: center;
-    /* font-family: 'Caveat', cursive; */
     font-family:'Caveat', cursive;
-    /* margin-top: -5px; */
     font-size: 50px;
     max-height: 20px;
-    /* max-height: 20px; */
-    /* position: relative;
-    top: 80px; */
 }
 
 div {
@@ -131,8 +115,6 @@ button {
 form {
     position: relative;
     top: 70px;
-    /* width: 200px; */
-    /* height: 30px; */
     font-family: 'Roboto', sans-serif;
     
     

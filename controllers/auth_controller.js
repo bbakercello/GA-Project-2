@@ -70,7 +70,7 @@ router.post("/login", async function (req, res) {
     try {
         // check if the user exists
         const foundUser = await db.User.findOne({ email: req.body.email });
-        console.log(foundUser);
+        
         // if not
         // redirect to register
         if (!foundUser) return res.redirect("/register");
